@@ -105,6 +105,11 @@ en:
   text_destroy_time_entries_question: "%{hours} hours were reported on the tickets you are about to delete. What do you want to do?"
   text_reassign_time_entries: 'Reassign reported hours to this ticket:'
   enumeration_issue_priorities: Ticket priorities
+  permission_manage_categories: Manage ticket categories
+  label_issue_category: Ticket category
+  label_issue_category_plural: Ticket categories
+  description_issue_category_reassign: Choose ticket category
+  text_issue_category_reassign_to: Reassign tickets to this category
 
   # Rename issue template to Ticket Template
   issue_templates: Ticket templates
@@ -124,15 +129,6 @@ en:
   note_apply_global_template_to_all_projects_setting_enabled: "This global ticket template is applied to all the project by plugin setting."
   note_project_local_template_override_global_template: "If project local template exists, override global templates and any global templates are not shown on create ticket screen."
   warning_project_local_template_override_global_template: "Please be careful when registering global ticket template, that contain confidential content you want to pay attention to. In case this option is activated, all the global templates will be applied to all projects."
-
-  # Rename category to Release
-  field_category: Release
-  permission_manage_categories: Manage releases
-  label_issue_category: Release
-  label_issue_category_plural: Releases
-  label_issue_category_new: New release
-  text_issue_category_destroy_assignments: Remove release assignments
-  description_issue_category_reassign: Choose release
 
   # Rename roadmap to Sprints
   label_roadmap: Sprints
@@ -155,8 +151,7 @@ en:
   # Multiple renames
   label_roadmap_no_issues: No tickets for this sprint
   error_can_not_reopen_issue_on_closed_version: 'A ticket assigned to a closed sprint cannot be reopened'
-  text_issue_category_reassign_to: Reassign tickets to this release
-  text_issue_category_destroy_question: "Some tickets (%{count}) are assigned to this release. What do you want to do?"
+  text_issue_category_destroy_question: "Some tickets (%{count}) are assigned to this category. What do you want to do?"
   field_is_in_roadmap: Tickets displayed in sprints list
 
   # Redmine Agile plugin
